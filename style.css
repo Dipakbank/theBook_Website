@@ -1,0 +1,48 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f8ff;  /* Light blue background */
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;  /* Darker text color */
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Book section styles */
+.book-section {
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #eee;  /* Light gray background */
+}
+
+.book-section h2 {
+  background-color: #007bff;  /* Blue background for headings */
+  color: #fff;  /* White text for headings */
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.book {
+  margin-bottom: 5px;
+}
+
+.book a {
+  color: #007bff;  /* Blue text for links */
+  text-decoration: none;
+}
+
+.book a:hover {
+  color: #333;  /* Darker text color on hover */
+  text-decoration: underline;
+}
